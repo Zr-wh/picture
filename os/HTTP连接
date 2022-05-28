@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-05-28T11:27:03.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" version="18.1.3" etag="gPkZw8IqA7w__wnxOYZH" type="github"><diagram id="LBSGlwWxqF7vidMLJypU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-28T11:33:15.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="_9_QxO1jVaHbsP1frSJz" version="18.1.3" type="github">
+  <diagram id="LBSGlwWxqF7vidMLJypU" name="第 1 页">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VNAFrXDTF-6Zf0ryVkEu-1" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="30" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="VNAFrXDTF-6Zf0ryVkEu-2" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="30" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="VNAFrXDTF-6Zf0ryVkEu-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TCP三次握手&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="120" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VNAFrXDTF-6Zf0ryVkEu-4" value="请求" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.234;exitY=0.253;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.286;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VNAFrXDTF-6Zf0ryVkEu-1" target="VNAFrXDTF-6Zf0ryVkEu-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="180" as="sourcePoint" />
+            <mxPoint x="240" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNAFrXDTF-6Zf0ryVkEu-5" value="请求" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=14;" connectable="0" vertex="1" parent="VNAFrXDTF-6Zf0ryVkEu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNAFrXDTF-6Zf0ryVkEu-6" value="响应" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0;exitY=0;exitDx=68;exitDy=19.5;exitPerimeter=0;entryX=0.512;entryY=0.307;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="273.5" y="188" as="sourcePoint" />
+            <mxPoint x="133.78999999999996" y="207.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNAFrXDTF-6Zf0ryVkEu-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TCP四次挥手&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VNAFrXDTF-6Zf0ryVkEu-9" value="客户端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNAFrXDTF-6Zf0ryVkEu-10" value="服务器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="245" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
