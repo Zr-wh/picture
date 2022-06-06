@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T11:52:35.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="sz2jYOhPcElDnmhFPRUA" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-06T12:27:18.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="wI_AXsKgRYpe3fc7oL3T" version="19.0.0" type="github" pages="2">
   <diagram id="iH4rEY3F-f7u3ceI1L_Q" name="第 1 页">
-    <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,6 +54,53 @@
         </mxCell>
         <mxCell id="vZqlqyyrUv6N0w4EE87X-18" value="校验和计算" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="630" y="95" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rxbeizzbpzISh214ax8d" name="第 2 页">
+    <mxGraphModel dx="1038" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6JrPMZxBLBtqQhjKEasU-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="6JrPMZxBLBtqQhjKEasU-1" target="6JrPMZxBLBtqQhjKEasU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JrPMZxBLBtqQhjKEasU-1" value="主机A发IP数据包" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6JrPMZxBLBtqQhjKEasU-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="6JrPMZxBLBtqQhjKEasU-2" target="6JrPMZxBLBtqQhjKEasU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JrPMZxBLBtqQhjKEasU-2" value="查主机A路由表&lt;br&gt;匹配目的地址" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6JrPMZxBLBtqQhjKEasU-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="6JrPMZxBLBtqQhjKEasU-3" target="6JrPMZxBLBtqQhjKEasU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JrPMZxBLBtqQhjKEasU-3" value="默认转发路由器1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="470" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6JrPMZxBLBtqQhjKEasU-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="6JrPMZxBLBtqQhjKEasU-4" target="6JrPMZxBLBtqQhjKEasU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JrPMZxBLBtqQhjKEasU-4" value="匹配目的地址相同&lt;br&gt;网络地址" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="470" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6JrPMZxBLBtqQhjKEasU-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="6JrPMZxBLBtqQhjKEasU-5" target="6JrPMZxBLBtqQhjKEasU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6JrPMZxBLBtqQhjKEasU-5" value="转发数据包给&lt;br&gt;匹配路由器2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6JrPMZxBLBtqQhjKEasU-6" value="查路由器2路由表&lt;br&gt;匹配目的主机" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6JrPMZxBLBtqQhjKEasU-12" value="未匹配" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6JrPMZxBLBtqQhjKEasU-14" value="已匹配" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
