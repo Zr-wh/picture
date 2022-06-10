@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T09:19:45.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="l1PWZsi4liOn59bOXZPH" version="19.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-10T09:22:12.608Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="973c7hO-QW0P5bHcGGVk" version="19.0.2" type="github" pages="2">
   <diagram id="cZXq8EZpWrQ2J_VqWP-d" name="第 1 页">
     <mxGraphModel dx="1038" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
             <mxPoint x="260" y="170" as="sourcePoint" />
             <mxPoint x="310" y="120" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="410" y="210" />
+              <mxPoint x="390" y="190" />
               <mxPoint x="300" y="140" />
             </Array>
           </mxGeometry>
@@ -162,6 +162,15 @@
         </mxCell>
         <mxCell id="N5pMn2WdahOcfxC2LRgF-15" value="广播" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="70" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N5pMn2WdahOcfxC2LRgF-16" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="210" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="N5pMn2WdahOcfxC2LRgF-17" value="&lt;b&gt;网段A&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N5pMn2WdahOcfxC2LRgF-18" value="&lt;b&gt;网段B&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
