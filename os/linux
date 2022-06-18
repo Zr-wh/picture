@@ -1,1 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2022-06-18T06:32:41.122Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" version="19.0.3" etag="1XgqqgnsM8Odv9zb2Y33" type="github"><diagram id="iUvFMG-GdflrItlmKSXO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-18T06:45:33.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="Ab3g-DfANFTlVCZe-wds" version="19.0.3" type="github">
+  <diagram id="iUvFMG-GdflrItlmKSXO" name="第 1 页">
+    <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;内核的内存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;父进程的内存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;内核的内存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;父进程的内存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="230" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-9" value="内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="95" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-10" value="内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-11" value="调用fork()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rfyhQcrutoOjuSfLp_sx-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="230" as="sourcePoint" />
+            <mxPoint x="80" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-13" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="170" y="140" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;内核的内存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;父进程的内存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-17" value="内存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="390" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-19" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=14;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="180" as="sourcePoint" />
+            <mxPoint x="320" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="170" />
+              <mxPoint x="340" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-20" value="复制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-21" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-22" value="fork()调用恢复" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rfyhQcrutoOjuSfLp_sx-22" target="rfyhQcrutoOjuSfLp_sx-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="180" as="sourcePoint" />
+            <mxPoint x="520" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rfyhQcrutoOjuSfLp_sx-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="190" as="sourcePoint" />
+            <mxPoint x="480" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;子进程的内存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfyhQcrutoOjuSfLp_sx-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;子进程的内存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
