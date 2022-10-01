@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-01T08:01:48.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="CmN0S8m8tncEEMTweQbt" version="20.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-01T08:04:07.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="M3sDpUJ6uDmnu38-GPaG" version="20.1.4" type="github" pages="2">
   <diagram id="0o-87qVV33MI0mIvp4wF" name="第 1 页">
     <mxGraphModel dx="1038" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Sv_IT7ro0YfFTqATN-SS" name="第 2 页">
-    <mxGraphModel dx="415" dy="197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="716" dy="339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
         <mxCell id="AIA-sg1hKEpAzFLRw0K5-51" value="&lt;font style=&quot;font-size: 14px; font-weight: normal;&quot;&gt;时延大&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="260" y="370" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AIA-sg1hKEpAzFLRw0K5-52" value="&lt;span style=&quot;font-size: 14px; font-weight: normal;&quot;&gt;（a） 增大采样频率&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="AIA-sg1hKEpAzFLRw0K5-52" value="&lt;span style=&quot;font-size: 14px; font-weight: normal;&quot;&gt;（b） 增大采样频率&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="257.5" y="400" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AIA-sg1hKEpAzFLRw0K5-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -128,6 +128,9 @@
         </mxCell>
         <mxCell id="AIA-sg1hKEpAzFLRw0K5-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="210" y="310" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AIA-sg1hKEpAzFLRw0K5-69" value="接收信息的时效性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="510" y="280" width="10" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
